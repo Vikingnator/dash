@@ -1,0 +1,95 @@
+body{
+    font-family: sans-serif;
+	background-color: white;
+	width: 80%;
+	text-align: centre;
+	margin: auto;
+}
+h1{
+    color:	#21ff83;
+}
+
+h2, h3, h4, h5, h6{
+	color: #54fe9f;
+}
+
+.opis1{
+	background-color: #343a40;
+	margin: auto;
+	margin-top: 1rem;
+	width: 100%;
+	color: white;
+}
+
+.opis1 center{
+	font-size: 1,5rem;
+	font-weight: 600;
+}
+
+.izberitespremenljivko1{
+	display: inline-block;
+	width:auto;
+	float:left;
+}
+
+.dropdown-spremenljivke{
+	min-width: 25%;
+	width: auto;
+	display: inline-block;
+	float:center;
+	padding:10px;
+	
+}
+
+.legenda1{
+	margin-top: 10px;
+	height: 400px;
+	background-color: #343a40;
+	width:20%;
+	min-width: 250px;
+	float:left;
+}
+
+.legenda1 table{
+	color: white;
+	padding:10px;
+	margin-left:5px;
+	margin-top: -18px;
+}
+
+.legenda1 td{
+	padding: 6px;
+	color: white;
+}
+
+.legenda1 h3{
+	padding:10px;
+	margin-left: 12px;
+}
+
+
+.lineChart1{
+	display: inline-block;
+	width: 100%;
+	margin-top: -20px;
+}
+
+.lineChart2{
+	display: inline-block;
+	width: 74%;
+	float: right;
+
+}
+
+.hist{
+	display: inline-block;
+	width: 77%;
+	float: right;
+}
+
+.histSlider{
+	width: 77%;
+	padding-top: -20px;
+	padding-bottom: 40px;
+	float: right;
+}

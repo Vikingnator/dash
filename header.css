@@ -1,0 +1,12 @@
+.app-header {
+    height: 60px;
+    line-height: 40px;
+    border-bottom: thin lightgrey solid;
+}
+
+.app-header .app-header--title  center{
+    font-size: 35px;
+	color: #21ff83;
+	margin-top: 20px;
+	font-weight: 600;
+}
