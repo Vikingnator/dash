@@ -1,0 +1,84 @@
+body{
+    font-family: sans-serif;
+	background-color: white;
+	width: 90%;
+	text-align: centre;
+	margin: auto;
+}
+
+.bodi{
+	width:100%,
+}
+
+.opis1{
+	background-color: #343a40;
+	margin: auto;
+	margin-top: 1rem;
+	width: 100%;
+	color: white;
+}
+
+.opis1 center{
+	font-size: 1,5rem;
+	font-weight: 600;
+}
+
+.histogramInMeni{
+	width=100%;
+}
+
+.histMeni{
+	background-color: white;
+	width:20%;
+	margin-top: 20px;
+	min-width: 250px;
+	float:left;
+	position: fixed;
+	border-style: groove;
+}
+
+.histGraf{
+	display: inline-block;
+	width: 68%;
+	float: right;
+	padding-top: 30px;
+}
+
+.histSlider{
+	width: 65%;
+	padding-top: -20px;
+	padding-bottom: 40px;
+	float: right;
+}
+
+.varDropdown{
+	padding: 10px;
+	width:90%;
+}
+
+.drzavaDropdown{
+	padding: 10px;
+	width:90%;
+}
+
+.spolRadio{
+	padding: 10px;
+	width:90%;
+	line-height:0px;
+}
+
+.izobrazbaRadio{
+	padding: 10px;
+	width:90%;
+	line-height:30px;
+}
+
+.starostRadio{
+	padding: 10px;
+	width:90%;
+	line-height:30px;
+}
+
+.hist{
+	width:75%,
+}
