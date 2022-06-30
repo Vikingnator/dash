@@ -41,7 +41,8 @@ body{
 
 .histGraf{
 	display: inline-block;
-	width: 68%;
+	width: 66%;
+	padding-left: 1rem;
 	float: right;
 	padding-top: 30px;
 }
