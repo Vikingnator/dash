@@ -1,0 +1,487 @@
+body{
+    font-family: sans-serif;
+	background-color: white;
+	width: 100%;
+	text-align: centre;
+	margin: auto;
+}
+
+.Select-value-label{
+	line-height: 10px;
+}
+
+.bodi{
+	
+}
+
+.opis1{
+	background-color: #343a40;
+	margin-top: 1rem;
+	margin-left: 10rem;
+	width: 86%;
+	color: white;
+}
+
+.opis1 center{
+	font-size: 1,5rem;
+	font-weight: 600;
+
+	
+}
+
+.histogramInMeni{
+	width:100%;
+	padding-left: 3rem;
+}
+
+.legend{
+	#display:none;
+}
+
+.histMeni{
+	background-color: #343a40;
+	width:25%;
+	margin-top: 20px;
+	min-width: 250px;
+	float: right;
+	border-style: solid;
+	border-color: grey;
+	color:white;
+	padding-right:1rem;
+	margin-right:3rem;
+}
+
+.dash-dropdown{
+	color: black
+}
+
+.histogramInSlider{
+	width: 70%;
+	float:left;
+}
+
+.histGraf{
+	display: inline-block;
+	width: 100%;
+	padding-left: 7rem;
+	float: left;
+	padding-top: 30px;
+}
+
+.histSlider{
+	width: 95%;
+	padding-top: 0.5rem;
+	padding-bottom: 40px;
+	float: left;
+	padding-left: 7rem;
+}
+
+.histSlider .rc-slider-track{
+	background-color:#fc4e2a;
+}
+
+.histSlider .rc-slider-rail{
+	background-color:#d2d3d3;
+}
+
+.histSlider .rc-slider-handle {
+  background-color: #fc4e2a;
+  border-color: #fc4e2a;
+}
+
+.histSlider .rc-slider-handle.rc-slider-handle-click-focused{
+	background-color: #fc4e2a;
+	border-color: #fc4e2a;
+}
+
+.histSlider .rc-slider-handle active{
+	border-color:#fc4e2a;
+}
+
+.histSlider .rc-slider-handle:hover{
+border-color:#fc4e2a;
+}
+
+.histSlider .rc-slider-dot-active {  
+  border-color: #fc4e2a;
+  border: solid 2px #fc4e2a;
+}
+
+
+.varDropdown{
+	padding: 10px;
+	width:100%;
+}
+
+.varDropdown label{
+	margin-left:4px;
+	margin-top: 5px;
+}
+
+.varDropdown label input{
+	margin-left: -3px;
+	margin-right: 5px;
+}
+
+.varDropdown label+label input{
+		margin-left: 3px;
+}
+
+#histVar1{
+	margin-top: 0.5rem;
+}
+
+.drzavaDropdown{
+	padding: 0.5rem;
+	width:100%;
+}
+
+
+
+.spolRadio{
+	padding: 10px;
+	width:90%;
+	line-height:25px;
+}
+
+.spolRadio label+label{
+	margin-top: 0.2rem;
+	margin-left: 0.4rem;
+}
+
+.spolRadio label+label+label{
+	margin-left:8px;
+}
+
+.spolRadio label input{
+	margin-right: 10px;
+}
+
+.izobrazbaRadio{
+	padding: 10px;
+	width:90%;
+	line-height:20px;
+
+}
+
+.izobrazbaRadio label{
+	margin-top: 0.65rem;
+}
+
+.izobrazbaRadio label input{
+	margin-right: 0.3rem;
+}
+
+
+.starostRadio{
+	padding: 10px;
+	width:90%;
+	line-height:30px;
+	margin-top:-10px;
+}
+
+.starostRadio label{
+	padding-right: 0.3rem;
+}
+
+.starostRadio label input{
+	margin-right: 0.2rem;
+}
+
+.hist{
+	width:75%,
+}
+
+.opomba1{
+	width: 57%;
+	margin-left: 10rem;
+	margin-top: -1rem;
+}
+
+/* */
+/* */
+/* */
+/* PAGE 1 SPODI*/
+/* */
+/* */
+/* */
+/* */
+
+.page1{
+	width: 91%;
+	float:right;
+	padding-left: 2rem;
+}
+
+.opis2{
+	background-color: #343a40;
+	margin-top: 1rem;
+	margin-bottom:-30px;
+	width: 100%;
+	color: white;
+}
+
+.opis2 center{
+	font-size: 1,5rem;
+	font-weight: 600;
+}
+
+.lineGraf{
+	display: inline-block;
+	width: 100%;
+	padding-top: 30px;
+}
+
+.lineMeni{
+	background-color: #343a40;
+	width:100%;
+	/*margin-right:-3rem;
+	margin-left: 6rem;*/
+	min-width: 250px;
+	float:left;
+	border-style: solid;
+	border-color: grey;
+	color:white;
+	margin-bottom: 1rem;
+}
+
+
+
+.lineMeniSpremenljivkaB{
+	width: 20%;
+	margin-right: 1rem;
+}
+
+.LineokvirčkSprem{
+	width: 60%;
+	margin-top: -2rem;
+	margin-left: 8rem;
+	min-width: 10rem;
+}
+
+.linevarDropdown{
+	padding: 10px;
+	margin-top: 10px;
+	width:100%;
+}
+
+.linevarDropdown label{
+	padding-left:-4px;
+	margin-top: 5px;
+}
+
+.linespolRadio{
+	padding: 10px;
+	width:50%;
+	line-height:25px;
+}
+
+.linespolRadio label+label{
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+}
+
+.linespolRadio label input{
+	margin-right: 5px;
+}
+
+.lineSpolGumbki{
+	margin-top: -1.7rem;
+	margin-left: 3rem;
+	width: 100%;
+}
+
+.lineizobrazbaRadio{
+	padding: 10px;
+	width:100%;
+	line-height:20px;
+}
+
+.lineizobrazbaRadio label{
+	margin-top: 0.65rem;
+	margin-right: 10px;
+}
+
+.lineizobrazbaRadio label input{
+	margin-right: 0.3rem;
+}
+
+.linestarostRadio{
+	padding: 10px;
+	width:90%;
+	line-height:30px;
+	margin-top:-10px;
+}
+
+.linestarostRadio label{
+	padding-right: 0.3rem;
+}
+
+.linestarostRadio label input{
+	margin-right: 0.2rem;
+}
+
+/*  */
+/*  */
+/*  */
+/*	PAGE 2 SPODI  */
+/*  */
+/*  */
+/*  */
+
+.page2{
+	width: 91%;
+	float:right;
+	padding-left: 2rem;
+}
+
+.opis3{
+	background-color: #343a40;
+	margin-top: 1rem;
+	width: 100%;
+	color: white;
+}
+
+.opis3 center{
+	font-size: 1,5rem;
+	font-weight: 600;
+}
+
+.barSlider{
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 30px;
+	float: left;
+}
+
+.barSlider .rc-slider-track{
+	background-color:#d6604d;
+}
+
+.barSlider .rc-slider-handle {
+  background-color: #d6604d;
+  border-color: #d6604d;
+}
+
+.barSlider .rc-slider-handle.rc-slider-handle-click-focused{
+	background-color: #d6604d;
+	border-color: #d6604d;
+}
+
+.barSlider .rc-slider-handle active{
+	border-color:#d6604d;
+}
+
+.barSlider .rc-slider-handle:hover{
+border-color:#d6604d;
+}
+
+.barSlider .rc-slider-dot-active {  
+  border-color: #d6604d;
+  border: solid 2px #d6604d;
+}
+
+.barSlider2{
+	width: 100%;
+	padding-top: 0.5rem;
+	padding-bottom: 30px;
+	float: left;
+}
+
+.barSlider2 .rc-slider-track{
+	background-color:#bababa;
+}
+
+.barSlider2 .rc-slider-handle {
+  background-color: #bababa;
+  border-color: #bababa;
+}
+
+.barSlider2 .rc-slider-handle.rc-slider-handle-click-focused{
+	background-color: #bababa;
+	border-color: #bababa;
+}
+
+.barSlider2 .rc-slider-handle active{
+	border-color:#bababa;
+}
+
+.barSlider2 .rc-slider-handle:hover{
+border-color:#bababa;
+}
+
+.barSlider2 .rc-slider-dot-active {  
+  border-color: #bababa;
+  border: solid 2px #bababa;
+}
+
+/*
+.barvarDropdown{	
+}
+*/
+
+.barCheckGumba{
+	width: 100%;
+	margin-top: -1.7rem;
+	margin-left: 20.5rem;
+}
+
+.barvarDropdown{
+	padding: 10px;
+	margin-top: 10px;
+	width:100%;
+}
+
+.barvarDropdown label{
+	padding-left:-4px;
+	margin-top: 5px;
+	margin-right: 0.5rem;
+}
+
+.barvarDropdown label input{
+	margin-right: 0.3rem;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*	PAGE 3 SPODI  */
+/*  */
+/*  */
+/*  */
+
+.page3{
+	width: 91%;
+	float:right;
+	padding-left: 2rem;
+}
+
+/*
+.reg1{
+	width: 48%;
+	display: inline-block;
+	margin-top: 30px;
+	
+}
+
+.reg2{
+	width: 48%;
+	display: inline-block;
+	margin-top: 30px;
+	float: right;
+}
+*/
+
+.scattSlider{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.scattOkvirčkSprem{
+	width: 20%;
+	margin-top: -2rem;
+	margin-left: 4.5rem;
+	min-width: 10rem;
+}
+
